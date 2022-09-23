@@ -7,8 +7,8 @@ const OurTeam = ({team}) => {
         <div>
            
            
-            <div class="px-12 card card-compact w-96 bg-base-100 shadow-xl">
-                <figure><img src={picture} alt="Shoes" /></figure>
+            <div class="px-12 card card-compact w-96 bg-base-100 shadow-xl mt-5">
+                <figure><img className='object-cover h-40 w-96' src={picture} alt="Shoes" /></figure>
                 {/* <img src={picture} alt="" /> */}
                 <div class="card-body">
                     <h2 class="card-title">Name: {name}</h2>
